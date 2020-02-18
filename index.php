@@ -19,7 +19,7 @@
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        App Help Desk
+         Help Desk
       </a>
     </nav>
 
@@ -29,7 +29,7 @@
         <div class="card-login">
           <div class="card">
             <div class="card-header">
-              Login
+              Login - Help Desk
             </div>
             <div class="card-body">
               <form>
