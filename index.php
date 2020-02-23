@@ -15,7 +15,7 @@
   </style>
 </head>
 
-<body background="nature.jpg"style="background-repeat: no-repeat;background-size: cover;">
+<body background="fundo.png"style="background-repeat: no-repeat;background-size: cover;">
 
   <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
