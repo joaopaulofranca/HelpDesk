@@ -1,2 +1,0 @@
-Inicio|minharede|vagas
-<hr>
