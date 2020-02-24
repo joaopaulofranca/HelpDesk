@@ -1,14 +1,31 @@
-<?php 
-//session_start();
-  //  print_r($_SESSION);
+<?php
 
-//remover indicer do array de sessão -> unset()
-//unset($_SESSION['autenticado']); // remove apenas se existir o indice
+session_start();
 
+/*echo '<pre>';
+print_r($_SESSION);
+echo '</pre>';
 
-//destruir a variavel de sessão -> session_destroy()
-session_destroy(); //sera destruida
-//forçar um redirencionamento
+//remover indices do array de sessão
+//unset();
 
-header('location:index.php');
+unset($_SESSION['x']); //remove o indice apenas se existir
+
+echo '<pre>';
+print_r($_SESSION);
+echo '</pre>';
+
+//destruir a variável de sessão
+//session_destroy();
+
+session_destroy(); //será destruída mas necessita da próxima requisição
+//forçar redirecionamento / refresh
+
+echo '<pre>';
+print_r($_SESSION);
+echo '</pre>';*/
+
+session_destroy();
+header('Location: index.php');
+
 ?>
