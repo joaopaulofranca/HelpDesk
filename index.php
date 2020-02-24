@@ -17,7 +17,7 @@
 
 <body background="ass/plano.jpg"style="background-repeat: no-repeat;background-size: cover;">
 
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark ">
     <a class="navbar-brand" href="#">
       <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
        HELP DESK
@@ -29,7 +29,7 @@
 
       <div class="card-login">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header"style="opacity : 0.5">
             Login
           </div>
           <div class="card-body">
@@ -56,7 +56,7 @@
                 </div>
 
               <?php } ?>
-              <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+              <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
             </form>
           </div>
         </div>
